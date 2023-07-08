@@ -55,6 +55,10 @@ nav a{
     padding: 30px 30px 0px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-picture{
     width: 400px;
@@ -62,8 +66,37 @@ nav a{
 .banner-greeting{
     font-size: 45px;
     color: #474747;
+    margin-bottom: 0px;
 }
 .banner-title{
     font-size: 85px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-bottom: 0px;
+}
+header div .btn{
+    margin-top: 30px;
+}
+/* main section styles */
+.secction-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.banner-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+}
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
 }
