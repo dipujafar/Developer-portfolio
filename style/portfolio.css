@@ -85,7 +85,7 @@ main{
     max-width: 1140px; 
     margin: 0 auto;
 }
-.secction-title{
+.section-title{
     color:  #181818;
     text-align: center;
     font-size: 35px;
@@ -110,4 +110,8 @@ font-size: 18px;
 }
 .about-info{
     text-align: center;
+}
+/* what i do secetion  */
+#what-i-do-description{
+    padding: 30px 150px;
 }
