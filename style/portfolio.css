@@ -45,10 +45,15 @@ nav a{
 }
 /* header related style */
 .header{
-    background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-color: #181716;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
+}
+#contact-btn{
+    background: #FFF;
+    border: 2px solid #FD6E0A ;
+    margin-left: 5px;
 }
 /* Banner related Style */
 .banner{
